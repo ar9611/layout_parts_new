@@ -1,5 +1,12 @@
 @charset "UTF-8";
 
 /* 回答はここに書いてね */
+.q2_content {
+  width: 900px;
+  padding: 20px;
+  margin: 0 auto;
+  background-color: #eff3f4;
+}
+
 
 /* 回答はここに書いてね */
