@@ -1,5 +1,26 @@
 @charset "UTF-8";
 
 /* 回答はここに書いてね */
+.content {
+  table-layout: fixed;
+  width: 100%;
+  border: solid #dedede 1px;
+}
+
+.content th {
+  padding: 10px;
+  font-size: 18px;
+  line-height: 26px;
+  color: white;
+  background-color: #2244aa;
+  border: solid #dedede 1px;
+}
+
+.content td {
+  font-size: 16px;
+  line-height: 22px;
+  text-align: center;
+  border: solid #dedede 1px;
+}
 
 /* 回答はここに書いてね */
