@@ -20,4 +20,26 @@
   margin: 0 auto;
 }
 
+.q6--around.is-table {
+  display: table;
+}
+
+.q6_box {
+  display: table-cell;
+  vertical-align: middle;
+  text-align: center;
+}
+
+.q6_box__text {
+  display: inline-block;
+  padding: 10px;
+  background-color: #fff;
+}
+
+.q6--around.is-flex {
+  display: flex;
+  align-items: center;
+  justify-content:center;
+}
+
 /* 回答はここに書いてね */
