@@ -1,24 +1,29 @@
 @charset "UTF-8";
 
 /* 回答はここに書いてね */
-.q6_box_text {
-  width: 90px;
-  padding: 10px 0;
-  background-color: #e6f2ff;
-}
-
-.q6_box_content{
+/*q6-1*/
+.q6_box_content {
   text-align: center;
 }
 
-.q6__box.is-textalign .q6_box_text {
+.q6_box_text {
+  padding: 10px 0;
+  width: 90px;
+  background-color: #e6f2ff;
+  text-align: center;
+}
+
+.text_align {
   display: inline-block;
 }
 
-.q6__box.is-margin .q6_box_text {
-  text-align: center;
+.margin {
   margin: 0 auto;
 }
+
+
+
+
 
 .q6--around.is-table {
   display: table;
@@ -40,6 +45,36 @@
   display: flex;
   align-items: center;
   justify-content:center;
+}
+
+/* q6-2 position*/
+.q6_relative {
+  position: relative;
+}
+
+.q6_text {
+  background-color: #e6f2ff;
+  text-align: center;
+}
+
+.is-fixed {
+  width: 110px;
+  height: 30px;
+  line-height: 30px;
+  position: absolute;
+  top: 0;
+  right: 0;
+  bottom: 0;
+  left: 0;
+  margin: auto;
+}
+
+.is-flexed {
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  padding: 10px;
 }
 
 /* 回答はここに書いてね */
