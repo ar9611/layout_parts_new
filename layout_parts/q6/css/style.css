@@ -21,11 +21,8 @@
   margin: 0 auto;
 }
 
-
-
-
-
-.q6--around.is-table {
+/*q6-2*/
+.is-table {
   display: table;
 }
 
@@ -41,7 +38,7 @@
   background-color: #fff;
 }
 
-.q6--around.is-flex {
+.is-flex {
   display: flex;
   align-items: center;
   justify-content:center;
