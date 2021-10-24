@@ -42,6 +42,21 @@
 }
 
 /*q7-3 inline-block*/
+.is-block {
+  font-size: 0;
+}
 
+.q7_inline_block {
+  display: inline-block;
+  box-sizing: border-box;
+  width: 225px;
+  margin-left: 50px;
+  font-size: 16px;
+  vertical-align: middle;
+}
+
+.q7_inline_block:first-child {
+  margin-left: 0;
+}
 
 /* 回答はここに書いてね */
