@@ -24,4 +24,24 @@
   margin-left: 0;
 }
 
+/*q7-2 table*/
+.q7_table {
+  display: table;
+}
+
+.q7_cell {
+  display: table-cell;
+  width: 225px;
+  padding-left: 50px;
+  font-size: 16px;
+}
+
+.q7_cell:first-child {
+  padding-left: 0;
+  vertical-align: middle;
+}
+
+/*q7-3 inline-block*/
+
+
 /* 回答はここに書いてね */
