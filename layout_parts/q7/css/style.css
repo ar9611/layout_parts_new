@@ -8,10 +8,6 @@
   clear: both;
 }
 
-.float_box {
-  overflow: hidden;
-}
-
 .q7_float {
   float: left;
   width: 225px;
@@ -70,6 +66,29 @@
   margin: 0 auto;
   box-sizing: border-box;
   width: 225px;
+  font-size: 16px;
+}
+
+/*q7-5 inline-box margin*/
+.block_font {
+  font-size: 0;
+}
+
+.q7_inlineblock {
+  display: inline-block;
+  width: 300px;
+  vertical-align: top;
+}
+
+.q7_flexed {
+  display: inline-block;
+  width: 100%;
+  box-sizing: border-box;
+  padding-left: 350px;
+  margin-left: -300px;
+}
+
+.is-text {
   font-size: 16px;
 }
 
