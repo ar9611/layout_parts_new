@@ -2,15 +2,35 @@
 
 /* 回答はここに書いてね */
 .q9_ballon {
+  position: relative;
   margin: 0 auto;
   width: 500px;
   border: solid 5px #222;
-  box-sizing: border-box;
+  padding: 20px;
+  border-radius: 30px;
+}
+
+.q9_ballon::before, .q9_ballon::after {
+  position: absolute;
+  content: "";
+  border: solid 20px transparent;
+}
+
+.q9_ballon::before {
+  border-top-color: #222;
+  bottom: -45px;
+  left: 30px;
+}
+
+.q9_ballon::after {
+  border-top-color: white;
+  bottom: -38px;
+  left: 30px;
 }
 
 .q9_ballon p {
   font-size: 16px;
   line-height: 16px;
-  border-radius: 30px;
 }
+
 /* 回答はここに書いてね */
