@@ -1,5 +1,16 @@
 @charset "UTF-8";
 
 /* 回答はここに書いてね */
+.q9_ballon {
+  margin: 0 auto;
+  width: 500px;
+  border: solid 5px #222;
+  box-sizing: border-box;
+}
 
+.q9_ballon p {
+  font-size: 16px;
+  line-height: 16px;
+  border-radius: 30px;
+}
 /* 回答はここに書いてね */
